@@ -1,0 +1,11 @@
+file_format: '1'
+id: ergonaut_one
+name: Ergonaut One
+type: shield
+url: https://github.com/ergonautkb/one
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - ergonaut_one_left
+  - ergonaut_one_right
