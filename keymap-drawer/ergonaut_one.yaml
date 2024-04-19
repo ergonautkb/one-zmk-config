@@ -1,0 +1,173 @@
+layers:
+  default:
+  - {t: ']', h: Gui}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - {t: '`', h: Ctrl}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: '''', h: Ctrl}
+  - {t: '-', h: Alt}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: \, h: Alt}
+  - {t: ↹, h: raise}
+  - {t: ␣, h: Shift}
+  - {t: ⏎, h: lower}
+  - {t: Esc, h: lower}
+  - {t: ⌫, h: Shift}
+  - {t: ⌦, h: raise}
+  lower:
+  - {t: F1, h: Gui}
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: +, h: Ctrl}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - {t: '-', h: Ctrl}
+  - {t: '=', h: Alt}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - Alt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  raise:
+  - {t: KP NUM, h: Gui}
+  - KP SLASH
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - Vol Up
+  - Home
+  - Print Scrn
+  - Page Up
+  - SLCK
+  - CLCK
+  - {t: '=', h: Ctrl}
+  - KP MULTIPLY
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - MUTE
+  - ←
+  - ↑
+  - →
+  - Insert
+  - {t: APP, h: Ctrl}
+  - Alt
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DOT
+  - Vol Down
+  - End
+  - ↓
+  - Page Down
+  - Pause Break
+  - Alt
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - Boot
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Boot
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR
+  - Reset
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Reset
+  - {type: held}
+  - ''
+  - {type: held}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
