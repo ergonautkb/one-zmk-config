@@ -18,4 +18,5 @@ jobs:
       output_folder: keymap-drawer
       install_branch: main
       amend_commit: true
+      draw_args: "-k corne_rotated -l LAYOUT_split_3x6_3"
       json_path: keymap-drawer/layouts
