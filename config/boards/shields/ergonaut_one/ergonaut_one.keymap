@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 #define DEF 0
 #define LWR 1
@@ -22,6 +23,18 @@
         tri-layer {
             if-layers = <1 2>;
             then-layer = <3>;
+        };
+    };
+    
+    macros {
+        btsel: bt_select {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings 
+                = <&out OUT_BLE>
+                , <&macro_param_1to2>
+                , <&bt BT_SEL MACRO_PLACEHOLDER>
+                ;
         };
     };
 
@@ -55,8 +68,8 @@
         };
         adjust_layer {
             bindings = <
-                &bootloader   &none          &none          &none          &none          &none          &none          &none          &none          &none          &none          &bootloader
-                &bt BT_CLR    &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4   &bt BT_SEL 4   &bt BT_SEL 3   &bt BT_SEL 2   &bt BT_SEL 1   &bt BT_SEL 0   &bt BT_CLR
+                &bootloader   &none          &none          &out OUT_TOG   &none          &none          &none          &none          &out OUT_TOG   &none          &none          &bootloader
+                &bt BT_CLR    &btsel 0       &btsel 1       &btsel 2       &btsel 3       &btsel 4       &btsel 4       &btsel 3       &btsel 2       &btsel 1       &btsel 0       &bt BT_CLR
                 &sys_reset    &none          &none          &none          &none          &none          &none          &none          &none          &none          &none          &sys_reset
                                                             &trans         &none          &trans         &none          &trans         &trans
             >;
