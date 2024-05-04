@@ -20,11 +20,11 @@ parse_config:
     '&out OUT_USB': Out USB
     '&out OUT_BLE': Out BLE
 
-    '&bt BT_SEL 0': BT 1
-    '&bt BT_SEL 1': BT 2
-    '&bt BT_SEL 2': BT 3
-    '&bt BT_SEL 3': BT 4
-    '&bt BT_SEL 4': BT 5
+    '&btsel 0': BT 1
+    '&btsel 1': BT 2
+    '&btsel 2': BT 3
+    '&btsel 3': BT 4
+    '&btsel 4': BT 5
 
     '&mmv MOVE_UP': Mouse ↑
     '&mmv MOVE_DOWN': Mouse ↓

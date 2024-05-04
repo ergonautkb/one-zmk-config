@@ -142,16 +142,16 @@ layers:
   - ''
   - Boot
   - BT CLR
-  - '&btsel'
-  - '&btsel 1'
-  - '&btsel 2'
-  - '&btsel 3'
-  - '&btsel 4'
-  - '&btsel 4'
-  - '&btsel 3'
-  - '&btsel 2'
-  - '&btsel 1'
-  - '&btsel'
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
   - BT CLR
   - Reset
   - ''
