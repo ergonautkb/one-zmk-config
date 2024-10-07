@@ -37,7 +37,7 @@ You have two options on how to configure your desired keymap:
 
 #### Option 2. Manual
 
-1. Make changes to the [ergonaut_one.keymap](config/boards/shields/ergonaut_one/ergonaut_one.keymap) file using your favorite text editor.
+1. Make changes to the [ergonaut_one.keymap](config/ergonaut_one.keymap) file using your favorite text editor.
 2. Commit changes to your repository.
 3. Go to `Actions` tab in your Github repository, locate the latest build and wait for it to complete.
 4. Grab the `firmware.zip` archive
