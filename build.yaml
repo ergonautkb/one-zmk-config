@@ -7,11 +7,11 @@ include:
     shield: ergonaut_one_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: ergonaut-one-left-studio
+    artifact-name: ergonaut_one_left_studio
   - board: seeeduino_xiao_ble
     shield: ergonaut_one_right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: ergonaut-one-right-studio
+    artifact-name: ergonaut_one_right_studio
   - board: seeeduino_xiao_ble
     shield: settings_reset
