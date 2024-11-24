@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: one-zmk-module
+    - name: ergonautkb-zmk-module
       remote: ergonautkb
       revision: main
   self:
